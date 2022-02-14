@@ -35,11 +35,7 @@ public class MainActivity extends AppCompatActivity {
         txtNumber = findViewById(R.id.txtPhoneNumber);
         txtMessage = findViewById(R.id.txtSMS);
 
-        Intent intent = new Intent(this, BroadcastReceiverSMS.class);
-        // Send String
-        intent.putExtra("Phone", txtNumber.toString());
-        intent.putExtra("Message", txtMessage.toString());
-        startActivity(intent);
+
 
     }
 }
