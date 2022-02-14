@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AutoSMS</string>
+    <string name="save_data">Save Data</string>
+    <string name="type_the_sms_message">Type the SMS message</string>
+    <string name="type_the_phone_number">Type the Phone number</string>
+    <string name="phone_number">Phone number</string>
+    <string name="sms_message">SMS message</string>
+</resources>
